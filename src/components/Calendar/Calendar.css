@@ -1,0 +1,110 @@
+* {
+  display: flexbox;
+}
+.datepicker {
+  display: inline-block;
+  user-select: none;
+}
+.months-wrapper {
+  border: 1px solid gray;
+}
+
+.month-wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+.month-title {
+  display: flex;
+  justify-content: center;
+}
+.month {
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+}
+.week + .week {
+  margin-top: 4px;
+}
+.week {
+  display: flow-root;
+  justify-content: center;
+}
+.day {
+  width: 80px;
+  height: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+.day {
+  margin-left: 4px;
+}
+
+::after {
+  background: rgba(green, 0.5);
+}
+.in-range,
+.selected {
+  border-color: green;
+}
+
+.today {
+  border-color: blue;
+}
+
+.grayout {
+  opacity: 0.2;
+}
+
+.weekend {
+  color: red;
+}
+
+.in-range {
+  background: lightblue;
+}
+
+.selected {
+  background: pink;
+}
+
+.inputs-wrapper {
+  margin-top: 10px;
+}
+.select {
+  height: 40px;
+}
+
+.calenbutn2 {
+  height: 40px;
+  width: 50vw;
+  margin-top: 9px;
+  margin-left: 25%;
+}
+.calenresult {
+  text-align: center;
+  height: 40px;
+}
+.selectsec {
+  height: 10px;
+  text-align: left;
+}
+.contols {
+  width: 40px;
+  padding-left: 25%;
+  margin-left: 25%;
+}
+.inputs-wrapper {
+  margin-left: 30%;
+}
+
+.clear-box {
+  height: 30px;
+}
+.date-viewer {
+  height: 30px;
+}

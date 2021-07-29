@@ -1,0 +1,15 @@
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  font-size: 22px;
+}
+.MuiButtonBase-root {
+  margin-right: 45%;
+}
+/* <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary" tabindex="0" type="button" style="
+    margin-right: 45%;
+"><span class="MuiButton-label">Done</span><span class="MuiTouchRipple-root"></span></button>
+
+<span class="MuiButton-label">Done</span>*/
